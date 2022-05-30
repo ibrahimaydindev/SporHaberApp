@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/breakingNewsFragment"
+        android:icon="@drawable/ic_news"
+        android:title="Haber Akışı" />
+
+    <item
+        android:id="@+id/searchNewsFragment"
+        android:icon="@drawable/ic_search"
+        android:title="Haber ara" />
+</menu>
