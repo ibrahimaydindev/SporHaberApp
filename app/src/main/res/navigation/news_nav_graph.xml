@@ -6,35 +6,34 @@
 
     <fragment
         android:id="@+id/breakingNewsFragment"
-        android:name="najah.dev.news_app.ui.fragments.NewsFragment"
-        android:label="BreakingNewsFragment" >
+        android:name="com.ibrahim.news_app.ui.fragments.NewsFragment"
+        android:label="BreakingNewsFragment">
         <action
             android:id="@+id/action_breakingNewsFragment_to_articleFragment"
             app:destination="@id/articleFragment"
             app:enterAnim="@anim/slide_in_right"
             app:exitAnim="@anim/slide_out_left"
             app:popEnterAnim="@anim/slide_in_left"
-            app:popExitAnim="@anim/slide_out_right"/>
+            app:popExitAnim="@anim/slide_out_right" />
     </fragment>
     <fragment
         android:id="@+id/articleFragment"
-        android:name="najah.dev.news_app.ui.fragments.ArticleFragment"
-        android:label="ArticleFragment"
-        >
+        android:name="com.ibrahim.news_app.ui.fragments.ArticleFragment"
+        android:label="ArticleFragment">
         <argument
             android:name="article"
-            app:argType="najah.dev.news_app.models.Article" />
+            app:argType="com.ibrahim.news_app.models.Article" />
     </fragment>
     <fragment
         android:id="@+id/searchNewsFragment"
-        android:name="najah.dev.news_app.ui.fragments.SearchNewsFragment"
-        android:label="SearchNewsFragment" >
+        android:name="com.ibrahim.news_app.ui.fragments.SearchNewsFragment"
+        android:label="SearchNewsFragment">
         <action
             android:id="@+id/action_searchNewsFragment_to_articleFragment"
             app:destination="@id/articleFragment"
             app:enterAnim="@anim/slide_in_right"
             app:exitAnim="@anim/slide_out_left"
             app:popEnterAnim="@anim/slide_in_left"
-            app:popExitAnim="@anim/slide_out_right"/>
+            app:popExitAnim="@anim/slide_out_right" />
     </fragment>
 </navigation>
