@@ -19,12 +19,9 @@ import com.ibrahim.news_app.utils.Constants.Companion.QUERY_PAGE_SIZE
 import com.ibrahim.news_app.utils.Resource
 
 class NewsFragment : Fragment(R.layout.fragment_hbraks_news) {
-
-
     private lateinit var newsFragmentBinding: FragmentHbraksNewsBinding
     lateinit var viewModel: NewsViewModel
     lateinit var newsAdapter: NewsAdapter
-
     val TAG = "BreakingNewsFragment"
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
@@ -33,20 +30,15 @@ class NewsFragment : Fragment(R.layout.fragment_hbraks_news) {
         newsFragmentBinding = binding
         viewModel = (activity as NewsActivity).viewModel
         setupRecyclerView()
-
-
         newsAdapter.setOnItemClickListener {
             val bundle = Bundle().apply {
                 putSerializable("article", it)
             }
-
             findNavController().navigate(
                 R.id.action_breakingNewsFragment_to_articleFragment,
                 bundle
             )
-
         }
-
         viewModel.breakingNews.observe(viewLifecycleOwner, Observer { response ->
             when (response) {
                 is Resource.Success -> {
@@ -98,12 +90,10 @@ class NewsFragment : Fragment(R.layout.fragment_hbraks_news) {
 
         override fun onScrolled(recyclerView: RecyclerView, dx: Int, dy: Int) {
             super.onScrolled(recyclerView, dx, dy)
-
             val layoutManager = recyclerView.layoutManager as LinearLayoutManager
             val firstVisibleItemPosition = layoutManager.findFirstVisibleItemPosition()
             val visibleItemCount = layoutManager.childCount
             val totalItemCount = layoutManager.itemCount
-
             val isNotLoadingAndNotLastPage = !isLoading && !isLastPage
             val isAtLastItem = firstVisibleItemPosition + visibleItemCount >= totalItemCount
             val isNotAtBeginning = firstVisibleItemPosition >= 0
@@ -125,5 +115,4 @@ class NewsFragment : Fragment(R.layout.fragment_hbraks_news) {
             addOnScrollListener(this@NewsFragment.scrollListener)
         }
     }
-
 }

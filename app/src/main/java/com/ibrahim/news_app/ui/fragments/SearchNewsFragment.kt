@@ -24,7 +24,6 @@ class SearchNewsFragment : Fragment(R.layout.fragment_search_news) {
     private lateinit var searchNewsFragmentBinding: FragmentSearchNewsBinding
     lateinit var viewModel: NewsViewModel
     lateinit var newsAdapter: NewsAdapter
-
     val TAG = "SearchNewsFragment"
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
@@ -32,10 +31,7 @@ class SearchNewsFragment : Fragment(R.layout.fragment_search_news) {
         val binding = FragmentSearchNewsBinding.bind(view)
         searchNewsFragmentBinding = binding
         viewModel = (activity as NewsActivity).viewModel
-
         setupRecyclerView()
-
-
         newsAdapter.setOnItemClickListener {
             val bundle = Bundle().apply {
                 putSerializable("article", it)
@@ -100,7 +96,6 @@ class SearchNewsFragment : Fragment(R.layout.fragment_search_news) {
     var isLoading = false
     var isLastPage = false
     var isScrolling = false
-
     var scrollListener = object : RecyclerView.OnScrollListener() {
         override fun onScrollStateChanged(recyclerView: RecyclerView, newState: Int) {
             super.onScrollStateChanged(recyclerView, newState)
@@ -112,12 +107,10 @@ class SearchNewsFragment : Fragment(R.layout.fragment_search_news) {
 
         override fun onScrolled(recyclerView: RecyclerView, dx: Int, dy: Int) {
             super.onScrolled(recyclerView, dx, dy)
-
             val layoutManager = recyclerView.layoutManager as LinearLayoutManager
             val firstVisibleItemPosition = layoutManager.findFirstVisibleItemPosition()
             val visibleItemCount = layoutManager.childCount
             val totalItemCount = layoutManager.itemCount
-
             val isNotLoadingAndNotLastPage = !isLoading && !isLastPage
             val isAtLastItem = firstVisibleItemPosition + visibleItemCount >= totalItemCount
             val isNotAtBeginning = firstVisibleItemPosition >= 0
@@ -139,5 +132,4 @@ class SearchNewsFragment : Fragment(R.layout.fragment_search_news) {
             addOnScrollListener(this@SearchNewsFragment.scrollListener)
         }
     }
-
 }

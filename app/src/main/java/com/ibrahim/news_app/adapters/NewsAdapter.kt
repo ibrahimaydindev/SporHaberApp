@@ -12,8 +12,6 @@ import com.ibrahim.news_app.R
 import com.ibrahim.news_app.models.Article
 
 class NewsAdapter : RecyclerView.Adapter<NewsAdapter.ArticleViewHolder>() {
-
-
     inner class ArticleViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView)
 
     private val differCallback = object : DiffUtil.ItemCallback<Article>() {
@@ -40,7 +38,6 @@ class NewsAdapter : RecyclerView.Adapter<NewsAdapter.ArticleViewHolder>() {
     }
 
     override fun onBindViewHolder(holder: ArticleViewHolder, position: Int) {
-
         val article = differ.currentList[position]
         holder.itemView.apply {
             Glide.with(this).load(article.urlToImage).into(ivArticleImage)

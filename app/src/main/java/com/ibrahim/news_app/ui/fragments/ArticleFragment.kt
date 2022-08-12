@@ -11,11 +11,9 @@ import com.ibrahim.news_app.ui.NewsActivity
 import com.ibrahim.news_app.ui.NewsViewModel
 
 class ArticleFragment : Fragment(R.layout.fragment_article) {
-
     private lateinit var articleFragmentBinding: FragmentArticleBinding
     lateinit var viewModel: NewsViewModel
     val args: ArticleFragmentArgs by navArgs()
-
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
@@ -27,9 +25,6 @@ class ArticleFragment : Fragment(R.layout.fragment_article) {
         binding.webView.apply {
             webViewClient = WebViewClient()
             loadUrl(article.url)
-
         }
-
-
     }
 }

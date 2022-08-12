@@ -11,7 +11,6 @@ import com.ibrahim.news_app.db.ArticleDatabase
 import com.ibrahim.news_app.repository.NewsRepository
 
 class NewsActivity : AppCompatActivity() {
-
     private lateinit var binding: ActivityNewsBinding
     lateinit var viewModel: NewsViewModel
 
@@ -20,8 +19,6 @@ class NewsActivity : AppCompatActivity() {
         binding = ActivityNewsBinding.inflate(layoutInflater)
         val view = binding.root
         setContentView(view)
-
-
         val newsRepository = NewsRepository(ArticleDatabase(this))
         val viewModelProviderFactory = NewsViewModelProviderFactory(newsRepository)
         viewModel = ViewModelProvider(this, viewModelProviderFactory).get(NewsViewModel::class.java)
