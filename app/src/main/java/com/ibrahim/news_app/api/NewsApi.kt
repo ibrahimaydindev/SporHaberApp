@@ -30,6 +30,4 @@ interface NewsApi {
         apiKey: String = API_KEY
 
     ): Response<NewsResponse>
-
-
 }

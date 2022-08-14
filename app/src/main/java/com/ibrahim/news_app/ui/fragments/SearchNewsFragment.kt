@@ -41,7 +41,6 @@ class SearchNewsFragment : Fragment(R.layout.fragment_search_news) {
                 R.id.action_searchNewsFragment_to_articleFragment,
                 bundle
             )
-
         }
 
         var job: Job? = null
@@ -99,7 +98,6 @@ class SearchNewsFragment : Fragment(R.layout.fragment_search_news) {
     var scrollListener = object : RecyclerView.OnScrollListener() {
         override fun onScrollStateChanged(recyclerView: RecyclerView, newState: Int) {
             super.onScrollStateChanged(recyclerView, newState)
-
             if (newState == AbsListView.OnScrollListener.SCROLL_STATE_TOUCH_SCROLL) {
                 isScrolling = true
             }

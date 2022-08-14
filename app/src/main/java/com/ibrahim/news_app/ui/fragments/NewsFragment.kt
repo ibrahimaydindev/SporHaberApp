@@ -9,7 +9,6 @@ import androidx.lifecycle.Observer
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import kotlinx.android.synthetic.main.fragment_hbraks_news.*
 import com.ibrahim.news_app.R
 import com.ibrahim.news_app.adapters.NewsAdapter
 import com.ibrahim.news_app.databinding.FragmentHbraksNewsBinding
@@ -78,7 +77,6 @@ class NewsFragment : Fragment(R.layout.fragment_hbraks_news) {
     var isLoading = false
     var isLastPage = false
     var isScrolling = false
-
     var scrollListener = object : RecyclerView.OnScrollListener() {
         override fun onScrollStateChanged(recyclerView: RecyclerView, newState: Int) {
             super.onScrollStateChanged(recyclerView, newState)

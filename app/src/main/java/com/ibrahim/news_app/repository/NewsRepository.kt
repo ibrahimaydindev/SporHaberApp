@@ -3,7 +3,6 @@ package com.ibrahim.news_app.repository
 import com.ibrahim.news_app.api.RetrofitInstance
 import com.ibrahim.news_app.db.ArticleDatabase
 
-
 class NewsRepository(
     val db: ArticleDatabase
 ) {
@@ -12,6 +11,4 @@ class NewsRepository(
 
     suspend fun searchNews(searchQuery: String, pageNumber: Int) =
         RetrofitInstance.api.searchForNews(searchQuery, pageNumber)
-
-
 }
