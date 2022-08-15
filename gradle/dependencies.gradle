@@ -13,8 +13,6 @@ ext {
             appcompatVersion       : "1.2.0",
             testVersion            : "1.1.2",
             espressoVersion        : "3.3.0",
-            //def var basında
-            nav_version            : "2.3.2",
             toolsVersion           : "7.0.4",
             pluginVersion          : "1.5.20"
     ]
