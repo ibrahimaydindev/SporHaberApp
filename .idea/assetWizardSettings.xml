@@ -67,6 +67,7 @@
                                           <PersistentState>
                                             <option name="values">
                                               <map>
+                                                <entry key="color" value="000000" />
                                                 <entry key="imagePath" value="C:\Users\zeuss\AppData\Local\Temp\ic_android_black_24dp.xml" />
                                               </map>
                                             </option>
@@ -79,8 +80,8 @@
                                             <option name="values">
                                               <map>
                                                 <entry key="color" value="000000" />
-                                                <entry key="imagePath" value="C:\Users\zeuss\foto.svg" />
-                                                <entry key="scalingPercent" value="90" />
+                                                <entry key="imagePath" value="C:\Program Files\SporHaberApp\app\src\main\res\drawable\commentator.png" />
+                                                <entry key="scalingPercent" value="60" />
                                               </map>
                                             </option>
                                           </PersistentState>
@@ -112,7 +113,7 @@
                                   </option>
                                   <option name="values">
                                     <map>
-                                      <entry key="outputName" value="foto" />
+                                      <entry key="outputName" value="commentator" />
                                     </map>
                                   </option>
                                 </PersistentState>

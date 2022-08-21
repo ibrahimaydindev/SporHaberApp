@@ -1,5 +1,6 @@
 package com.ibrahim.news_app.ui
 
+import android.os.Build
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.lifecycle.ViewModelProvider
@@ -9,6 +10,7 @@ import kotlinx.android.synthetic.main.activity_news.*
 import com.ibrahim.news_app.databinding.ActivityNewsBinding
 import com.ibrahim.news_app.db.ArticleDatabase
 import com.ibrahim.news_app.repository.NewsRepository
+import com.ibrahim.news_app.utils.ShortCuts.setUp
 
 class NewsActivity : AppCompatActivity() {
     private lateinit var binding: ActivityNewsBinding
@@ -23,5 +25,9 @@ class NewsActivity : AppCompatActivity() {
         val viewModelProviderFactory = NewsViewModelProviderFactory(newsRepository)
         viewModel = ViewModelProvider(this, viewModelProviderFactory).get(NewsViewModel::class.java)
         binding.bottomNavigationView.setupWithNavController(newNavHostFragment.findNavController())
+
+        if(Build.VERSION.SDK_INT >=25){
+            setUp(applicationContext)
+        }
     }
 }
