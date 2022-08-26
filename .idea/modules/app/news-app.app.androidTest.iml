@@ -36,7 +36,7 @@
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/52920a7f3dcb1873e6fd54372875554b/transformed/jetified-fragment-ktx-1.2.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/d50b7e3769c1e46724caf12385f78f4e/transformed/navigation-runtime-ktx-2.2.1-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/388a4a743c4777c85116ba59ea92c085/transformed/jetified-activity-ktx-1.1.0-api.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/transforms-3/0e9c8bffe2275aaab128f051709d6bcc/transformed/jetified-core-ktx-1.9.0-beta01-api.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-3/59f78b63dafd156ad8538f1a2a5d9e87/transformed/jetified-core-ktx-1.9.0-rc01-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/209c139b8405a28fdf84999f65c03ac3/transformed/monitor-1.3.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/d5d106593ecef0c817f60a98eadfcf94/transformed/jetified-lifecycle-runtime-ktx-2.2.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/6f61db7cf122b8bd3528430ed77b6375/transformed/cursoradapter-1.0.0-api.jar</arg>
@@ -70,7 +70,7 @@
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/60929371960b80c578ad22449995cebd/transformed/jetified-activity-1.1.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/3d3274a16d733dbd9fd7bfe78d295a70/transformed/navigation-common-ktx-2.2.1-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/8b798306cf977291e9d0b9e0d614c069/transformed/navigation-common-2.2.1-api.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/transforms-3/a2b742a8eea742c0ed9fed0ac0393240/transformed/core-1.9.0-beta01-api.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-3/425e094e41e67e58c3ad79cf76a57bc7/transformed/core-1.9.0-rc01-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/0188a0b4ebe7a235da95694c29465755/transformed/jetified-lifecycle-viewmodel-ktx-2.2.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/4df4b6cc14fcd67dae34fa389e023fa3/transformed/jetified-lifecycle-viewmodel-savedstate-2.2.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/33b6ad95d4b8a7e6ffdc8b0897d9e42b/transformed/lifecycle-viewmodel-2.2.0-api.jar</arg>
@@ -106,12 +106,12 @@
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/f14fb6ddb9507dff24f1db1a9015507c/transformed/jetified-kotlin-stdlib-jdk7-1.7.20-Beta.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/281a170b7f8fcdcd8e1a8ea60969a94d/transformed/jetified-okhttp-4.5.0.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/7e0ddc20887324543fbbed305064b8c3/transformed/jetified-okio-jvm-2.5.0.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-3/b01b60634e897e3a89e2ef2e1335a432/transformed/jetified-annotation-experimental-1.3.0-rc01-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/f9be7415e3009a89348b5a6d6ee845a4/transformed/jetified-kotlin-stdlib-1.7.20-Beta.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/fa438a7fd41f2efbb664d7d6dd432428/transformed/jetified-gson-2.8.5.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/c1c61fa7dca4c1ac21941289d07273c2/transformed/jetified-disklrucache-4.11.0.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/8f4b9acfaa4726449f6980f09b70bda8/transformed/jetified-annotations-4.11.0.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.constraintlayout/constraintlayout-solver/2.0.4/1f001d7db280a89a6c26b26a66eb064bb6d5efeb/constraintlayout-solver-2.0.4.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/transforms-3/31790be79ad9c82cdff0c776d0702e31/transformed/jetified-annotation-experimental-1.1.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/41b7bbbf43eebb05462b5b68334a0a28/transformed/jetified-kotlin-stdlib-common-1.7.20-Beta.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/1815d0f27405b140559758ebcf1b7d5b/transformed/jetified-annotations-13.0.jar</arg>
                 <arg>$USER_HOME$/AppData/Local/Android/Sdk/platforms/android-33/android.jar</arg>
@@ -240,7 +240,7 @@
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.fragment:fragment-ktx:1.2.0@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.navigation:navigation-runtime-ktx:2.2.1@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.activity:activity-ktx:1.1.0@aar" level="project" />
-    <orderEntry type="library" scope="TEST" name="Gradle: androidx.core:core-ktx:1.9.0-beta01@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.core:core-ktx:1.9.0-rc01@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.test:monitor:1.3.0@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.lifecycle:lifecycle-runtime-ktx:2.2.0@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.cursoradapter:cursoradapter:1.0.0@aar" level="project" />
@@ -273,7 +273,7 @@
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.activity:activity:1.1.0@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.navigation:navigation-common-ktx:2.2.1@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.navigation:navigation-common:2.2.1@aar" level="project" />
-    <orderEntry type="library" scope="TEST" name="Gradle: androidx.core:core:1.9.0-beta01@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.core:core:1.9.0-rc01@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.lifecycle:lifecycle-viewmodel:2.2.0@aar" level="project" />
@@ -291,7 +291,7 @@
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.localbroadcastmanager:localbroadcastmanager:1.0.0@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.print:print:1.0.0@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.test.espresso:espresso-idling-resource:3.3.0@aar" level="project" />
-    <orderEntry type="library" scope="TEST" name="Gradle: androidx.annotation:annotation-experimental:1.1.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.annotation:annotation-experimental:1.3.0-rc01@aar" level="project" />
   </component>
   <component name="TestModuleProperties" production-module="news-app.app.main" />
 </module>

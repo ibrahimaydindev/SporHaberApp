@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">SporHaber</string>
+    <string name="compose_shortcut_short_label1">Haberleri Görüntüle</string>
+    <string name="compose_shortcut_long_label1">Haberleri Görüntüle</string>
+    <string name="compose_disabled_message1">disabled</string>
 </resources>

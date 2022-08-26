@@ -17,7 +17,11 @@
         <entry key="..\:/HaberApp/app/src/main/res/menu/bottom_navigation_menu.xml" value="0.25416666666666665" />
         <entry key="..\:/HaberApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.14635416666666667" />
         <entry key="..\:/Program Files/SporHaberApp/app/src/main/res/drawable-v24/ic_search.xml" value="0.142" />
+        <entry key="..\:/Program Files/SporHaberApp/app/src/main/res/layout/activity_news.xml" value="0.25" />
+        <entry key="..\:/Program Files/SporHaberApp/app/src/main/res/layout/fragment_article.xml" value="0.25" />
+        <entry key="..\:/Program Files/SporHaberApp/app/src/main/res/layout/fragment_hbraks_news.xml" value="0.25" />
         <entry key="..\:/Program Files/SporHaberApp/app/src/main/res/layout/fragment_search_news.xml" value="0.25" />
+        <entry key="..\:/Program Files/SporHaberApp/app/src/main/res/layout/item_article_preview.xml" value="0.25" />
         <entry key="..\:/Program Files/SporHaberApp/app/src/main/res/layout/shortcut.xml" value="0.24895833333333334" />
         <entry key="..\:/Program Files/SporHaberApp/app/src/main/res/layout/shortcuts.xml" value="0.176" />
         <entry key="..\:/SporHaberApp/app/src/main/res/layout/activity_news.xml" value="0.25416666666666665" />

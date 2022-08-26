@@ -1,0 +1,16 @@
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/commentator"
+        android:shortcutDisabledMessage="@string/compose_disabled_message1"
+        android:shortcutId="news2"
+        android:shortcutLongLabel="@string/compose_shortcut_long_label1"
+        android:shortcutShortLabel="@string/compose_shortcut_short_label1">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetClass="com.ibrahim.news_app.ui.NewsActivity"
+            android:targetPackage="com.ibrahim.news_app" />
+        <categories android:name="android.shortcut.conversation" />
+        <capability-binding android:key="actions.intent.CREATE_MESSAGE" />
+    </shortcut>
+</shortcuts>
